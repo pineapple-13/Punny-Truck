@@ -1,0 +1,38 @@
+body{
+    background-image: url(wallpaper.jpg);
+    margin: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#done{
+    background-color: rgb(245, 216, 69);
+    width: 80%;
+    max-width: 600px;
+    height: 50vh;
+    padding: 20px;
+    border-radius: 10px;
+    margin: auto;
+}
+
+h1, h2{
+    text-align: center;
+}
+
+p{
+    display: flex;
+    justify-content: right;
+}
+
+h1{
+    font-size: 60px;
+}
+
+h2{
+    font-size: 50px;
+}
+
+hr{
+    border: none;
+    background-color: rgb(155, 101, 14);
+    height: 4px;
+}

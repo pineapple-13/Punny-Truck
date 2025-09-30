@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="punny-survey.css">
+    <title>Punny Survey</title>
+</head>
+
+<body>
+    <div class="the-form">
+        <form>
+            <a href="punny.html"><p id="back">back></p></a>
+
+            <h1>Punny Survey</h1>
+
+            <hr>
+
+            <div class="user-info">
+                <div class="name">
+                    Name: <input type="text" id="name" required>
+                </div>
+
+                <div class="email">
+                    Email: <input type="email" id="email" required>
+                </div>
+
+                <div class="age">
+                    Age: <input type="number" id="age" max="99" min="0" required>
+                </div>
+            </div>
+
+            <hr>
+
+            <div class="questions">
+                <div class="question">
+                    How was the spice level of the noodles?
+                    <br>
+                    <input type="radio" name="spice">
+                    Too much spice
+                    <br>
+                    <input type="radio" name="spice">
+                    Needs more spice
+                    <br>
+                    <input type="radio" name="spice">
+                    Perfect
+                </div>
+
+                <div class="question">
+                    Which nooodles type was your favourite?
+                    <br>
+                    <input type="radio" name="favourite-noodles">
+                    Signiture
+                    <br>
+                    <input type="radio" name="favourite-noodles">
+                    Spicy Chicken
+                    <br>
+                    <input type="radio" name="favourite-noodles">
+                    Beef Noodles
+                    <br>
+                    <input type="radio" name="favourite-noodles">
+                    Sea Noodles
+                </div>
+
+                <div class="question">
+                    Which tea type was your favourite?
+                    <br>
+                    <input type="radio" name="favourite-tea">
+                    Signiture
+                    <br>
+                    <input type="radio" name="favourite-tea">
+                    Passion Tea
+                    <br>
+                    <input type="radio" name="favourite-tea">
+                    Peach Tea
+                    <br>
+                    <input type="radio" name="favourite-tea">
+                    Mango Tea
+                </div>
+
+                <div class="last-question">
+                    How was the service of the staff?
+                    <br>
+                    <input type="radio" name="service">
+                    Good
+                    <br>
+                    <input type="radio" name="service">
+                    Ok
+                    <br>
+                    <input type="radio" name="service">
+                    Bad
+                </div>
+            </div>
+
+            <hr>
+
+            <div class="submitting">
+                <div class="review">
+                    Please give us your reviews:
+                    <br>
+                    <br>
+                    <textarea id="comment" cols="30"></textarea>
+                </div>
+
+                <div class="submit">
+                    <a href="punny-survey-end.html"><div id="sub">Submit</div></a>
+                </div>
+
+                <hr>
+
+                <br>
+
+                <p id="end">Thank you for sharing your thoughts with us.</p>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

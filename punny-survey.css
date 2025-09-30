@@ -1,0 +1,80 @@
+body{
+    background-image: url(wallpaper.jpg);
+    padding: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.the-form{
+    width: 80%;
+    max-width: 600px;
+    height: 130vh;
+    background-color: rgb(245, 216, 69);
+    padding: 5px 20px 20px 20px;
+    border-radius: 10px;
+    margin: auto;
+}
+
+#back{
+    display: flex;
+    justify-content: right;
+}
+
+h1{
+    text-align: center;
+}
+
+#age{
+    margin-left: 14px;
+    width: 163px
+}
+
+#email{
+    margin-left: 5px;
+}
+
+#name, #email{
+    margin-bottom: 10px;
+}
+
+hr{
+    height: 3px;
+    border: none;
+    background: rgb(155, 101, 14);
+    margin-top: 30px;
+}
+
+.question{
+    margin-bottom: 20px;
+}
+
+#comment{
+    margin-left: 10px;
+    margin-bottom:  20px;
+}
+
+#comment{
+    padding: 5px;
+}
+
+#end{
+    text-align: center;
+}
+
+a{
+    color: rgb(0, 0, 0)
+}
+
+a:hover{
+    color: rgb(155, 101, 14);
+}
+
+#sub{
+    height: 30px;
+    width: 100px;
+    background-color: rgb(255, 247, 205);
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid;
+}

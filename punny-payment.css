@@ -1,0 +1,67 @@
+body{
+    background-image: url(wallpaper.jpg);
+    padding: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#payment{
+    width: 80%;
+    max-width: 600px;
+    height:77vh;
+    background-color: rgb(245, 216, 69);
+    border-radius: 10px;
+    padding: 10px 20px 20px 20px;
+    margin: auto;
+}
+
+#back{
+    display: flex;
+    justify-content: right;
+}
+
+h1, h2{
+    text-align: center;
+    position: relative;
+    top: -30px;
+}
+
+hr{
+    border: none;
+    height: 3px;
+    background-color: rgb(155, 101, 14);
+    margin: 30px 0 50px;
+}
+
+#name{
+    position: relative;
+    left: 18px;
+}
+
+#email{
+    position: relative;
+    left: 22px;
+}
+
+.info{
+    margin-bottom: 20px;
+}
+
+#checkout{
+    width:100px;
+    height: 30px;
+    background-color: rgb(255, 247, 205);
+    margin: 40px auto;
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 5px;
+    text-align: center;
+}
+
+a{
+    color: black;
+}
+
+a:hover{
+    color: rgb(155, 101, 14);;
+}
+

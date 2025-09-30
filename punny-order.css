@@ -1,0 +1,90 @@
+body{
+    background-image: url(wallpaper.jpg);
+    padding: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#order{
+    width: 80%;
+    min-width: 540px;
+    max-width: 550px;
+    height: 100%;
+    margin: auto;
+    background-color:  rgb(245, 216, 69);
+    padding: 10px 20px 20px 20px;
+    border: none;
+    border-radius: 10px;
+}
+
+#back{
+    display: flex;
+    justify-content: right;
+}
+
+h1, h2{
+    text-align: center;
+}
+
+h2{
+    margin-top: 50px
+}
+
+.noodles, .ice-tea{
+    margin-bottom: 30px;
+    font-weight: 500;
+}
+
+.img{
+    width: 150px;
+    height: 150px;
+    margin: 20px auto;
+}
+
+.noodles-img, .ice-tea-img{
+    height: 150px;
+    width: 150px;
+}
+
+.box{
+    position: relative;
+    top: 2px;
+}
+
+.amount{
+    width: 50px;
+}
+
+
+hr{
+    height: 3px;
+    border: none;
+    background-color: rgb(155, 101, 14);
+}
+
+#special{
+    font-weight: 500;
+    margin-top: 30px;
+}
+
+textarea{
+    padding: 10px
+}
+
+a{
+    color: rgb(0, 0, 0)
+}
+
+a:hover{
+    color: rgb(155, 101, 14);
+}
+
+#place-order{
+    height: 30px;
+    width: 100px;
+    background-color: rgb(255, 247, 205);
+    border-radius: 5px;
+    border: 1px solid;
+    margin: 30px auto;
+    padding: 10px;
+    text-align: center;
+}

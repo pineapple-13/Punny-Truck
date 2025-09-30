@@ -1,0 +1,80 @@
+body{
+    background-image: url(wallpaper.jpg);
+    height: 100%;
+    padding: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.menu{
+    background-color: rgb(245, 216, 69);
+    margin: auto;
+    border: 1px solid;
+    width: 80%;
+    max-width: 500px;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.img{
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin: 20px auto;
+}
+
+.noodles, .ice-tea{
+    height: 150px;
+    width: 150px;
+}
+
+.items{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px
+}
+
+h1, h2{
+    text-align: center;
+}
+
+.items::after{
+    border-bottom: 2px solid
+}
+
+hr{
+    height: 3px;
+    border: none;
+    background: rgb(155, 101, 14);
+    margin-top: 20px;
+}
+
+p{
+    text-align: center;
+    padding-top: 5px;
+}
+
+#order-here{
+    height: 30px;
+    width: 100px;
+    background-color: rgb(255, 247, 205);
+    margin: 30px auto;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid;
+    border-radius: 5px;
+
+}
+
+#website{
+    position: relative;
+    left: 2px;
+}
+
+a{
+    color: rgb(0, 0, 0)
+}
+
+a:hover{
+    color: rgb(155, 101, 14);
+}
